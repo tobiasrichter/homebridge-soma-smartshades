@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thncode/homebridge-soma-smartshades.git"
+    "url": "git+https://git@github.com/tobiasrichter/homebridge-soma-smartshades.git"
   },
   "keywords": [
     "homebridge",
@@ -25,9 +25,9 @@
   "author": "Thomas Nemec",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PJCzx/homebridge-soma-smartshades/issues"
+    "url": "git+https://git@github.com/tobiasrichter/homebridge-soma-smartshades/issues"
   },
-  "homepage": "https://github.com/PJCzx/homebridge-soma-smartshades#readme",
+  "homepage": "git+https://git@github.com/tobiasrichter/homebridge-soma-smartshades#readme",
   "dependencies": {
     "python-shell": "^0.4.0",
     "request": "^2.78.0",
