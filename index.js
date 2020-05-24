@@ -4,7 +4,7 @@ var PythonShell = require('python-shell');
 var Service, Characteristic;
 
 module.exports = function(homebridge) {
-	console.log("homebridge API version: " + homebridge.version);
+	console.log("SmartShades2 homebridge API version: " + homebridge.version);
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   homebridge.registerAccessory("homebridge-soma-smartshades", "SmartShades", SmartShades);
@@ -50,7 +50,7 @@ SmartShades.prototype = {
 	},
 	// Required
 	getCurrentPosition: function(callback) {
-		this.log("getCurrentPosition:", this.currentPosition);
+		this.log("getCurrentPosition2:", this.currentPosition);
 		var error = null;
 		callback(error, this.currentPosition);
 	},
@@ -62,7 +62,7 @@ SmartShades.prototype = {
 	},
 
 	getTargetPosition: function (callback) {
-		this.log("getTargetPosition :", this.targetPosition);
+		this.log("getTargetPosition2:", this.targetPosition);
 		var error = null;
 		callback(error, this.targetPosition);
 	},
