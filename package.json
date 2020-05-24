@@ -29,6 +29,6 @@
   },
   "homepage": "git+https://git@github.com/tobiasrichter/homebridge-soma-smartshades#readme",
   "dependencies": {
-    "python-shell": "^0.4.0"
+    "python-shell": "^2.0.1"
   }
 }

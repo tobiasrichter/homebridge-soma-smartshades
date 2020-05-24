@@ -1,5 +1,5 @@
 
-var PythonShell = require('python-shell');
+var {PythonShell} = require('python-shell');
 
 var Service, Characteristic;
 
@@ -83,11 +83,12 @@ SmartShades.prototype = {
 		if(this.pythonScriptPath !== undefined) {
 
 			var options = {};
-			options.args = {
+			/*options.args = {
 				'-t': 'E3:19:51:66:9F:8B',
 				'-c': 'move_target',
 				'-a': this.targetPosition
-			}
+			}*/
+			options.args = ["-t E3:19:51:66:9F:8B", "-c move_target", "-a "+this.targetPosition];
 			options.scriptPath = this.pythonScriptPath;
 
 			PythonShell.run(this.pythonScriptName, options, function (err, results) {
