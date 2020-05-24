@@ -1,5 +1,5 @@
-var request = require("request");
-let {PythonShell} = require('python-shell')
+
+var PythonShell = require('python-shell');
 
 var Service, Characteristic;
 
