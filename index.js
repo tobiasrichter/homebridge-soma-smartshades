@@ -106,7 +106,7 @@ SmartShades.prototype = {
 			}.bind(this));
 		} else if (this.apiroute !== undefined) {
 			//HTTP API ACTION
-			var url = this.apiroute + "/targetposition/"+ this.id + "/" + this.targetPosition;
+			/*var url = this.apiroute + "/targetposition/"+ this.id + "/" + this.targetPosition;
 			this.log("GET", url);
 			request.get({
 				url: url
@@ -123,7 +123,7 @@ SmartShades.prototype = {
 					this.log("Response error" , err);
 					callback(err);
 				}
-			}.bind(this));
+			}.bind(this));*/
 		} else {
 			//FAKE SUCCESS
 			this.log("Fake Success");

@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-soma-smartshades",
+  "name": "homebridge-soma-smartshades2",
   "version": "1.0.3",
   "description": "Homebridge Soma Smartshades Plugin",
   "main": "index.js",
@@ -29,8 +29,7 @@
   },
   "homepage": "git+https://git@github.com/tobiasrichter/homebridge-soma-smartshades#readme",
   "dependencies": {
-    "python-shell": "^0.4.0",
-    "request": "^2.78.0",
-    "soma-ctrl": "^1.4.0"
+    "python-shell": "^2.0.1",
+    "request": "^2.88.0",
   }
 }
